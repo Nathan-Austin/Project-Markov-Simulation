@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import itertools
  
-P = pd.read_csv('../Project-Markov-Simulation/data/simulation_df.csv', index_col=0)
+P = pd.read_csv('data/simulation_df.csv', index_col=0)
 
 pygame.init()
 vec = pygame.math.Vector2 
